@@ -3,7 +3,7 @@ import 'package:http/http.dart'as http;
 import 'dart:convert'as convert;
 
 class GetLocation{
-  final String key="AIzaSyB_I6ZXsXxpyAndkWBRWUJEMxsqKWVhGpo";
+  final String key="Your key";
   Future<String>getPlcaeID(String input) async {
     print(input);
     final String url="https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=$input=&inputtype=textquery&key=$key";
